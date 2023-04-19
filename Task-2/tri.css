@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+body{
+    color: aliceblue;
+    background-color: rgb(37, 36, 36);
+    /* width: 100%; */
+    user-select: none;
+
+}
+header{
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(29, 27, 27);
+    height: 90px;
+    margin-top: -50px;
+    width: 99%;
+}
+.title{
+    padding: 10px;
+    width: fit-content;
+    margin-left: 40px;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: aliceblue;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    float: right;
+    margin-top: -60px;
+    margin-right: 50px;
+    width: fit-content;
+    font-family: 'Chivo Mono', monospace;
+}
+.nav{
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav:hover{
+    color: rgb(230, 115, 26);
+    transition: 0.3s ease-in-out;
+}
+
+
+/* video  */
+.h{
+  height: fit-content;
+  margin-top: 50px;
+  padding: 1px;
+  border-bottom-style: solid;
+}
+.vide{
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 60px;
+    border-style: none;
+    
+}
+.vide:hover{
+  border-style: solid;
+    border-color: #fff;
+    border-radius: 20px;
+}
+.home{
+  text-align: center;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+
+
+}
+.hommahi{
+  line-height: 2;
+  font-family: 'Chivo Mono', monospace;
+  margin-top: 70px;
+  margin-bottom: 93px;
+}
+.hname{
+  font-family: 'Rubik Wet Paint', cursive;
+  color: aliceblue;
+
+  
+}
+
+/* achievements */
+.achead{
+  font-family: 'Rubik Wet Paint', cursive;
+  text-decoration: underline;
+  text-align: center;
+}
+.imach{
+  width: 30%;
+  margin-left: 120px;
+  border-style: none;
+  border-radius: 20px;
+  opacity: 40%;
+  transition: transform .2s; 
+  margin-bottom: 70px;
+}
+.imach:hover{
+  opacity: 100%;
+  transform: scale(1.1);
+}
+.atext{
+  line-height: 2;
+  font-family: 'Chivo Mono', monospace;
+  float: right;
+  width: 50%;
+  margin-right: 40px;
+  /* margin-top: 150px; */
+}
+.act{
+  line-height: 2;
+  text-align: center;
+}
+.Achievments{
+  border-bottom-style: solid;
+}
+/* end */
+
+/* gallery */
+
+.gallery{
+  border-bottom-style: solid;
+}
+.gal{
+  width: 50px;
+  height: fit-content;
+  opacity: 30%;
+  margin-left: 30px;
+  align-items: center;
+  transition: transform .2s;
+  border-style: none;
+  border-radius: 20px;
+}
+.gal:hover{
+  
+  width: 300px;
+  opacity: 100%;
+  transform: scale(1.1);
+}
+.ima{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center;
+  margin-top: 100px;
+  height: 80vh;
+}
